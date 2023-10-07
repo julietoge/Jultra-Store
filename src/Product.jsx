@@ -12,7 +12,7 @@ const Product = () => {
 
   useEffect(() => {
     fetchProduct();
-  }, []);
+  });
 
   const fetchProduct = () => {
     axios
