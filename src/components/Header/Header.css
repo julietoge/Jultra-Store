@@ -1,0 +1,21 @@
+.header {
+  background-color: #5f9ea0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
