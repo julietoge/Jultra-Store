@@ -19,3 +19,8 @@ nav a:hover,
 nav a.active {
   text-decoration: underline;
 }
+@media (max-width: 499px) {
+  nav {
+    flex-direction: column;
+  }
+}
